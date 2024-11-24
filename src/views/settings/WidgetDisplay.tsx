@@ -16,8 +16,8 @@ const WidgetDisplay: React.FC<Props> = ({ display, onChange }) => {
         onChange={(position) => onChange({ position })}
       />
 
-      <label data-value={display.fontSize}>
-        Size
+      <label>
+        Size &nbsp; {display.fontSize}
         <br />
         <input
           type="range"

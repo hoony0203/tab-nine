@@ -54,7 +54,8 @@ const Background: React.FC = () => {
             <ToggleSection name="Display Settings">
               <>
                 <label>
-                  Blur <br />
+                  Blur &nbsp; {data.display.blur}
+                  <br />
                   <input
                     type="range"
                     list="blur-markers"
@@ -75,7 +76,7 @@ const Background: React.FC = () => {
                 </label>
 
                 <label>
-                  Luminosity <br />
+                  Luminosity &nbsp; {data.display.luminosity} <br />
                   <input
                     type="range"
                     list="luminosity-markers"

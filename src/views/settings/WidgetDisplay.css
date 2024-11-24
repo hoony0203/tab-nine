@@ -2,8 +2,3 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.WidgetDisplay > label::after {
-  content: attr(data-value);
-  padding-left: 0.5rem;
-}
